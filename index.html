@@ -3,15 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="A brief description of your webpage">
-    <meta name="keywords" content="HTML, CSS, JavaScript, Web Development">
-    <meta name="author" content="Your Name">
-    <title>Brian Doyle Personal Porfolio</title>
+    <title>Brian Doyle - Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Your Main Heading</h1>
-    <p>Content goes here...</p>
+    <header>
+        <h1>Brian Doyle</h1>
+        <p>Computer Science Student | Aspiring Software Engineer</p>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#connect">Connect</a>
+    </nav>
+    <main>
+        <section id="about">
+            <div class="content">
+                <div class="text">
+                    <h2>About Me</h2>
+                    <p>Hi! I'm Brian Doyle, a Computer Science student at Fordham University, with a minor in Cybersecurity.
+                    I am passionate about developing software, solving problems, and exploring AI and Machine Learning technologies.
+                    My goal is to create impactful solutions and continue to grow as a technologist.</p>
+                </div>
+                <div class="image">
+                    <img src="profile.jpg" alt="Brian Doyle">
+                </div>
+            </div>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li>
+                    <h3>Automatic Reddit Video Generator</h3>
+                    <p>Automated content collection and video creation using Python, Reddit API, OpenAI, and AWS.</p>
+                </li>
+                <li>
+                    <h3>Stock Prediction Web App</h3>
+                    <p>Built a stock prediction tool with Python and Facebook Prophet, integrating Yahoo Finance API.</p>
+                </li>
+                <li>
+                    <h3>Online Chess Game</h3>
+                    <p>Developed a functional chess game with JavaScript, HTML, and CSS for responsive gameplay.</p>
+                </li>
+            </ul>
+        </section>
+        <section id="connect">
+            <h2>Connect</h2>
+            <p>Email: <a href="mailto:bdoyle18@fordham.edu">bdoyle18@fordham.edu</a></p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/brian-doyle">linkedin.com/in/brian-doyle</a></p>
+            <p>GitHub: <a href="https://github.com/briandoyle">github.com/briandoyle</a></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Brian Doyle. All rights reserved.</p>
+    </footer>
 </body>
 </html>
